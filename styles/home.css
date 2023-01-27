@@ -1,0 +1,22 @@
+.hero-container {
+  background-image: url("../images/banner.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 100%;
+}
+
+.hero-container > .hero-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  padding: 12px;
+  background-color: #000;
+  opacity: 80%;
+  font-size: 1.25rem;
+  letter-spacing: 10px;
+  text-align: center;
+}
