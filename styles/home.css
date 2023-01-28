@@ -1,3 +1,4 @@
+/* Hero Section */
 .hero-container {
   background-image: url("../images/banner.jpg");
   background-position: center;
@@ -19,4 +20,56 @@
   font-size: 1.25rem;
   letter-spacing: 10px;
   text-align: center;
+}
+
+/* About Section */
+.about-section {
+  max-width: 980px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: 60px 0;
+}
+
+/* Only picks first p tag with the nth-of-type() function */
+.about-section > p:nth-of-type(1) {
+  font-style: italic;
+}
+
+/* Only picks second p tag with the nth-of-type() function */
+.about-section > p:nth-of-type(2) {
+  text-align: justify;
+}
+
+.about-section > .about-me-content {
+  width: 100%;
+  display: grid;
+  /* 1fr is relational to the size available to the container. 1fr 1fr would be like having 50-50 */
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+
+.about-section > .about-me-content > .about-content-photo-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-section
+  > .about-me-content
+  > .about-content-photo-wrapper
+  > .profile-icon-wrapper
+  > i {
+  padding-right: 10px;
+}
+
+.about-section > .about-me-content > .about-content-photo-wrapper img {
+  width: 100%;
+  height: 70%;
+  padding-top: 10px;
+  filter: opacity(0.75) grayscale(0.5);
+}
+
+.about-section > .about-me-content > p {
+  margin: 0;
+  text-align: justify;
 }
