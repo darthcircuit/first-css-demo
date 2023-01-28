@@ -7,6 +7,10 @@
   top: 0;
   z-index: 1;
   width: 100%;
+  background-color: white;
+  box-shadow: -3px 4px 27px -5px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -3px 4px 27px -5px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -3px 4px 27px -5px rgba(0, 0, 0, 0.75);
 }
 
 .navigation-wrapper > .links-wrapper {
@@ -26,14 +30,6 @@
   width: 30px;
   text-align: center;
 }
-
-/* .navigation-wrapper > .links-wrapper > .nav-link {
-
-}
-
-.navigation-wrapper > .search-icon-wrapper > .nav-link {
-
-} */
 
 .navigation-wrapper > div > div:hover {
   color: black;
